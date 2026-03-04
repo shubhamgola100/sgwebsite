@@ -281,7 +281,7 @@ export function Hero() {
               <div className="relative rounded-3xl overflow-hidden border-2 border-white/10 shadow-2xl shadow-violet-900/50">
                 <img
                   src={OWNER_IMAGE}
-                  // src="./src/assests/sg.png"
+                  // href="./src/assets/sg.png"
                   alt="SG - UI/UX Designer"
                   className="w-full h-[520px] object-cover object-top"
                 />
