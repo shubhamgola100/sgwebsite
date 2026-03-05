@@ -58,7 +58,7 @@ export function About() {
             <div className="relative rounded-3xl overflow-hidden border border-white/10">
               <img
                 // src="https://images.unsplash.com/photo-1740128041185-b2afa550f7cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBmZW1hbGUlMjBkZXNpZ25lciUyMHBvcnRyYWl0JTIwc3R1ZGlvfGVufDF8fHx8MTc3MjYyMDY2Mnww&ixlib=rb-4.1.0&q=80&w=1080"
-                src="./src/assets/sg.png"
+                src="src/assets/sg.png"
                 alt="About SG"
                 className="w-full h-[480px] object-cover object-center grayscale-[20%]"
               />

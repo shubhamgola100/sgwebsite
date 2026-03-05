@@ -2,9 +2,9 @@ import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, Download, Sparkles, Star } from "lucide-react";
 
-const OWNER_IMAGE = "https://in.pinterest.com/pin/1079526973196798911/";
+// const OWNER_IMAGE = "https://in.pinterest.com/pin/1079526973196798911/";
 
-// const OWNER_IMAGE = "./src/assets/sg.png";
+const OWNER_IMAGE = "./src/assets/sg.png";
 
 const roles = ["UI/UX Designer", "Product Designer", "Visual Artist", "Brand Strategist"];
 
