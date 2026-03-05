@@ -5,12 +5,12 @@ import { ExternalLink, ArrowRight } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "FinTrack Dashboard",
+    title: "CarsWorld",
     category: "Web App",
-    tags: ["Dashboard", "Finance", "UX"],
-    image: "https://images.unsplash.com/photo-1575388902449-6bca946ad549?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXNpZ24lMjBkYXNoYm9hcmQlMjBpbnRlcmZhY2UlMjBkYXJrfGVufDF8fHx8MTc3MjYyMDY2NHww&ixlib=rb-4.1.0&q=80&w=1080",
+    tags: ["Car Selling ", "Sports Car", "Luxury"],
+    image: "/car.png",
     accent: "#7c3aed",
-    desc: "A comprehensive financial analytics dashboard with real-time data visualization.",
+    desc: "A modern car-buying platform designed to help you find, explore, and drive your dream car.",
   },
   {
     id: 2,
@@ -21,24 +21,24 @@ const projects = [
     accent: "#a78bfa",
     desc: "A seamless e-commerce experience with AR product preview features.",
   },
-  {
-    id: 3,
-    title: "NovaBrand Identity",
-    category: "Branding",
-    tags: ["Brand", "Identity", "Print"],
-    image: "https://images.unsplash.com/photo-1760386129108-d17b9cdfc4fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxicmFuZGluZyUyMGlkZW50aXR5JTIwZGVzaWduJTIwY3JlYXRpdmV8ZW58MXx8fHwxNzcyNTc2Nzk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-    accent: "#c084fc",
-    desc: "Complete brand identity design for a next-gen SaaS startup.",
-  },
-  {
-    id: 4,
-    title: "Pulse Health App",
-    category: "Mobile App",
-    tags: ["Health", "iOS", "Android"],
-    image: "https://images.unsplash.com/photo-1663153204573-1e6581da098f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBkZXNpZ24lMjBtb2NrdXAlMjBjb2xvcmZ1bHxlbnwxfHx8fDE3NzI2MjA2NjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    accent: "#818cf8",
-    desc: "Health tracking app with personalized insights and beautiful data display.",
-  },
+  // {
+  //   id: 3,
+  //   title: "NovaBrand Identity",
+  //   category: "Branding",
+  //   tags: ["Brand", "Identity", "Print"],
+  //   image: "https://images.unsplash.com/photo-1760386129108-d17b9cdfc4fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxicmFuZGluZyUyMGlkZW50aXR5JTIwZGVzaWduJTIwY3JlYXRpdmV8ZW58MXx8fHwxNzcyNTc2Nzk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+  //   accent: "#c084fc",
+  //   desc: "Complete brand identity design for a next-gen SaaS startup.",
+  // },
+  // {
+  //   id: 4,
+  //   title: "Pulse Health App",
+  //   category: "Mobile App",
+  //   tags: ["Health", "iOS", "Android"],
+  //   image: "https://images.unsplash.com/photo-1663153204573-1e6581da098f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBkZXNpZ24lMjBtb2NrdXAlMjBjb2xvcmZ1bHxlbnwxfHx8fDE3NzI2MjA2NjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  //   accent: "#818cf8",
+  //   desc: "Health tracking app with personalized insights and beautiful data display.",
+  // },
 ];
 
 const filters = ["All", "Web App", "Mobile App", "Branding"];
