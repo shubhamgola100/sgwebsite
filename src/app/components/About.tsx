@@ -1,4 +1,5 @@
 import { useRef } from "react";
+// import hero from "./assets/sg.png";
 import { motion, useInView } from "framer-motion";
 import { Palette, Layers, Zap, Heart } from "lucide-react";
 
