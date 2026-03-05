@@ -2,9 +2,9 @@ import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, Download, Sparkles, Star } from "lucide-react";
 
-// const OWNER_IMAGE = "https://images.unsplash.com/photo-1740128041185-b2afa550f7cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBmZW1hbGUlMjBkZXNpZ25lciUyMHBvcnRyYWl0JTIwc3R1ZGlvfGVufDF8fHx8MTc3MjYyMDY2Mnww&ixlib=rb-4.1.0&q=80&w=1080";
+const OWNER_IMAGE = "https://in.pinterest.com/pin/1079526973196798911/";
 
-const OWNER_IMAGE = "./src/assets/sg.png";
+// const OWNER_IMAGE = "./src/assets/sg.png";
 
 const roles = ["UI/UX Designer", "Product Designer", "Visual Artist", "Brand Strategist"];
 
