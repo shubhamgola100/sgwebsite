@@ -5,7 +5,7 @@ import { ArrowRight, Download, Sparkles, Star } from "lucide-react";
 
 // const OWNER_IMAGE = "https://in.pinterest.com/pin/1079526973196798911/";
 
-const OWNER_IMAGE = "public/hero.png";
+const OWNER_IMAGE = "/hero.png";
 
 const roles = ["UI/UX Designer", "Product Designer", "Visual Artist", "Brand Strategist"];
 
@@ -282,7 +282,6 @@ export function Hero() {
               <div className="relative rounded-3xl overflow-hidden border-2 border-white/10 shadow-2xl shadow-violet-900/50">
                 <img
                   src={OWNER_IMAGE}
-                  // src={hero}
                   alt="SG - UI/UX Designer"
                   className="w-full h-[520px] object-cover object-top"
                 />
