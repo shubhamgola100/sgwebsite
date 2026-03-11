@@ -50,7 +50,7 @@ export function Testimonials() {
   const next = () => setCurrent(c => (c + 1) % testimonials.length);
 
   return (
-    <section id="testimonials" className="relative py-28 bg-[#0a0a0f] overflow-hidden">
+    <section id="testimonials" className="relative py-20 bg-[#0a0a0f] overflow-hidden">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[400px] bg-violet-900/12 rounded-full blur-3xl pointer-events-none" />
 
       <div ref={ref} className="max-w-7xl mx-auto px-6">

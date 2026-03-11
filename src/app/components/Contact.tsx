@@ -26,24 +26,25 @@ export function Contact() {
 const handleSubmit = (e: React.FormEvent) => {
   e.preventDefault();
 
-  emailjs
-    .send(
-      // "YOUR_SERVICE_ID",
-      "service_dcgc1ls",
-      // "YOUR_TEMPLATE_ID",
-      "template_ab12cd3",
-  {
+  const templateParams = {
     name: form.name,
     mobile: form.mobile,
     email: form.email,
     subject: form.subject,
     message: form.message,
-  },
-  "QWERTY123456"
-)
+  };
+
+  emailjs
+    .send(
+      "service_t0jgyrq",
+      "template_0rlrr6h",
+      templateParams,
+      "Rp7q5cWTHJS5rQaFA"
+    )
     .then(
       () => {
         setSent(true);
+
         setForm({
           name: "",
           mobile: "",
@@ -51,6 +52,7 @@ const handleSubmit = (e: React.FormEvent) => {
           subject: "",
           message: "",
         });
+
         setTimeout(() => setSent(false), 4000);
       },
       (error) => {
@@ -59,8 +61,10 @@ const handleSubmit = (e: React.FormEvent) => {
     );
 };
 
+
+
   return (
-    <section id="contact" className="relative py-28 bg-[#0d0b14] overflow-hidden">
+    <section id="contact" className="relative py-20 bg-[#0d0b14] overflow-hidden">
       <div className="absolute top-0 left-0 w-96 h-96 bg-violet-900/15 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute bottom-0 right-0 w-80 h-80 bg-purple-900/15 rounded-full blur-3xl pointer-events-none" />
 

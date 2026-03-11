@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { motion, useInView, AnimatePresence } from "framer-motion";
 import { ExternalLink, ArrowRight } from "lucide-react";
 
@@ -12,15 +12,15 @@ const projects = [
     accent: "#7c3aed",
     desc: "A modern car-buying platform designed to help you find, explore, and drive your dream car.",
   },
-  {
-    id: 2,
-    title: "ShopEase Mobile App",
-    category: "Mobile App",
-    tags: ["iOS", "E-commerce", "UI"],
-    image: "https://images.unsplash.com/photo-1644984875410-e11486d2b94f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjBzaG9wcGluZyUyMGFwcCUyMGRlc2lnbnxlbnwxfHx8fDE3NzI2MjA2Njd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    accent: "#a78bfa",
-    desc: "A seamless e-commerce experience with AR product preview features.",
-  },
+  // {
+  //   id: 2,
+  //   title: "ShopEase Mobile App",
+  //   category: "Mobile App",
+  //   tags: ["iOS", "E-commerce", "UI"],
+  //   image: "https://images.unsplash.com/photo-1644984875410-e11486d2b94f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjBzaG9wcGluZyUyMGFwcCUyMGRlc2lnbnxlbnwxfHx8fDE3NzI2MjA2Njd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  //   accent: "#a78bfa",
+  //   desc: "A seamless e-commerce experience with AR product preview features.",
+  // },
   // {
   //   id: 3,
   //   title: "NovaBrand Identity",
@@ -41,7 +41,10 @@ const projects = [
   // },
 ];
 
-const filters = ["All", "Web App", "Mobile App", "Branding"];
+
+
+// const filters = ["All", "Web App", "Mobile App", "Branding"];
+const filters = ["All", "Web App"];
 
 export function Work() {
   const ref = useRef(null);
@@ -52,7 +55,7 @@ export function Work() {
   const filtered = active === "All" ? projects : projects.filter(p => p.category === active);
 
   return (
-    <section id="work" className="relative py-28 bg-[#0a0a0f] overflow-hidden">
+    <section id="work" className="relative py-20 bg-[#0a0a0f] overflow-hidden">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-violet-900/10 rounded-full blur-3xl pointer-events-none" />
 
       <div ref={ref} className="max-w-7xl mx-auto px-6">

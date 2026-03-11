@@ -71,7 +71,7 @@ export function Skills() {
   const inView = useInView(ref, { once: true, margin: "-80px" });
 
   return (
-    <section id="skills" className="relative py-28 bg-[#0d0b14] overflow-hidden">
+    <section id="skills" className="relative py-20 bg-[#0d0b14] overflow-hidden">
       <div className="absolute top-0 right-0 w-96 h-96 bg-violet-900/15 rounded-full blur-3xl" />
       <div className="absolute bottom-0 left-0 w-80 h-80 bg-purple-900/10 rounded-full blur-3xl" />
 

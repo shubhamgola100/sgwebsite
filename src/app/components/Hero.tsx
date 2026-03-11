@@ -1,4 +1,5 @@
 // import hero from "./src/assets/sg.png";
+
 import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, Download, Sparkles, Star } from "lucide-react";
@@ -243,8 +244,10 @@ export function Hero() {
               >
                 View My Work <ArrowRight size={16} />
               </motion.a>
+
+              
               <motion.a
-                href="#"
+                href="#contact"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.97 }}
                 className="flex items-center gap-2 px-7 py-3.5 rounded-full border border-white/15 text-white hover:bg-white/5 transition-colors"
@@ -252,6 +255,9 @@ export function Hero() {
               >
                 <Download size={15} /> Download CV
               </motion.a>
+
+
+              
             </motion.div>
           </div>
 
